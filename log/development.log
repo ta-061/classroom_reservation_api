@@ -7256,3 +7256,5 @@ Processing by Api::V1::ReservationsController#index as */*
 Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 553)
 
 
+[dotenv] Set [36mADMIN_PASSWORD[0m, [36mSECRET_PASSWORD[0m, [36mFRONTEND_URL[0m, [36mDB_USERNAME[0m, [36mDB_PASSWORD[0m, and [36mDB_HOST[0m
+[dotenv] Loaded [33m.env[0m
