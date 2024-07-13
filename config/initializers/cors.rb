@@ -2,7 +2,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
     allow do
-      origins '*' # フロントエンドのURLを指定
+      origins 'https://room-reservation-app-git-main-ta-061s-projects.vercel.app' # フロントエンドのURLを指定
   
       resource '*',
         headers: :any,
